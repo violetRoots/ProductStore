@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[OrderItem]
+(
+	[ProductId] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	[IdOrder] INT NOT NULL,
+	[Count] INT NOT NULL,
+	[PriceItem] DECIMAL NOT NULL
+)

@@ -13,12 +13,12 @@ namespace StoreManufacture
 
         public string Email { get; }
 
-        public string Addres { get; }
+        public string Adress { get; }
 
         public string Description { get; }
 
 
-        public Manufacture(int id, string title, string numberPhone, string email, string addres, string description)
+        public Manufacture(int id, string title, string numberPhone, string email, string address, string description)
         {
             Id = id;
             Title = title;
@@ -33,7 +33,7 @@ namespace StoreManufacture
             else
                 Email = "";
 
-            Addres = addres;
+            Adress = address;
             Description = description;
         }
 
